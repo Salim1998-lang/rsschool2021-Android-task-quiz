@@ -80,28 +80,28 @@
 
         <RadioButton
             android:id="@+id/option_one"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <RadioButton
             android:id="@+id/option_two"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <RadioButton
             android:id="@+id/option_three"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <RadioButton
             android:id="@+id/option_four"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:checked="true" />
 
         <RadioButton
             android:id="@+id/option_five"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
     </RadioGroup>
