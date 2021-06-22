@@ -29,13 +29,13 @@ class ShareResultActivity : AppCompatActivity() {
             myIntent.setAction(Intent.ACTION_SEND)
             myIntent.putExtra(Intent.EXTRA_TEXT, "Your result: $sum%\n" +
                     "\nВопрос 1: ${questionAnswer[0].question} \n" +
-                    "Ваш ответ - ${questionAnswer[0].arrayAnswers[q1]}" +
+                    "Ваш ответ - ${questionAnswer[0].arrayAnswers[q1]}\n" +
                     "\nВопрос 2: ${questionAnswer[1].question} \n" +
-                    "Ваш ответ - ${questionAnswer[1].arrayAnswers[q2]}" +
+                    "Ваш ответ - ${questionAnswer[1].arrayAnswers[q2]}\n" +
                     "\nВопрос 3: ${questionAnswer[2].question} \n" +
-                    "Ваш ответ - ${questionAnswer[2].arrayAnswers[q3]}" +
+                    "Ваш ответ - ${questionAnswer[2].arrayAnswers[q3]}\n" +
                     "\nВопрос 4: ${questionAnswer[3].question} \n" +
-                    "Ваш ответ - ${questionAnswer[3].arrayAnswers[q4]}" +
+                    "Ваш ответ - ${questionAnswer[3].arrayAnswers[q4]}\n" +
                     "\nВопрос 5: ${questionAnswer[4].question} \n" +
                     "Ваш ответ - ${questionAnswer[4].arrayAnswers[q5]}"
             )
