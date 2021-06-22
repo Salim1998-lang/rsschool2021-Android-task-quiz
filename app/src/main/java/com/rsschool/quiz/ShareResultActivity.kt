@@ -28,7 +28,7 @@ class ShareResultActivity : AppCompatActivity() {
             val myIntent = Intent()
             myIntent.setAction(Intent.ACTION_SEND)
             myIntent.putExtra(Intent.EXTRA_TEXT, "Your result: $sum%\n" +
-                    "\nВопрос 1: ${questionAnswer[0].question} \n Варианты ответов: \n" +
+                    "\nВопрос 1: ${questionAnswer[0].question} \n" +
                     "Ваш ответ - ${questionAnswer[0].arrayAnswers[q1]}" +
                     "\nВопрос 2: ${questionAnswer[1].question} \n" +
                     "Ваш ответ - ${questionAnswer[1].arrayAnswers[q2]}" +
