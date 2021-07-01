@@ -41,4 +41,8 @@ class MainActivity : AppCompatActivity(), ActivityNavigate {
     override fun intentOnShareResult() {
         startActivity(Intent(this, ShareResultActivity::class.java))
     }
+
+    override fun onBackPressed() {
+        finishAffinity()
+    }
 }
